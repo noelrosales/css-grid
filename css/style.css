@@ -11,6 +11,27 @@ header {
     padding: 1em;
 }
 
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    padding: 1em;
+}
+
+nav ul li a:hover {
+    background: #333999;
+}
+
+
 .hero {
     display: flex;
     align-items: center;
