@@ -11,6 +11,12 @@ header {
     padding: 1em;
 }
 
+.container {
+    max-width: 85vw;
+    margin: auto;
+    padding: 1em;
+}
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -59,6 +65,21 @@ nav ul li a:hover {
 .g-item img {
     width: 100%;
     object-fit: cover;
+}
+
+article {
+    margin-top: 1em;
+    box-shadow: 0 1px 8px #666;
+    border-radius: .5em;
+}
+
+article header {
+    margin-bottom: 1em;
+    border-radius: .5em .5em 0 0;
+}
+
+article p {
+    padding: 1em;
 }
 
 @media screen and (max-width: 960px) {
